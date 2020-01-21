@@ -334,7 +334,7 @@ export default class TripLayer extends Layer {
           depthTest: mapState.dragRotate,
           depthMask: false
         },
-        trailLength: visConfig.trailLength * 1000,
+        trailLength: visConfig.trailLength * 100000,
         currentTime: animationConfig.currentTime - animationConfig.domain[0],
         updateTriggers
       })
